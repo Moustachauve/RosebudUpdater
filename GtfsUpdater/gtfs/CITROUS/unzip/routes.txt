@@ -1,0 +1,15 @@
+route_id,agency_id,route_short_name,route_long_name,route_type
+100,CITROUS,100,Delson - Montréal,3
+115,CITROUS,115-37,Delson - Brossard - Montréal,3
+130,CITROUS,130,Delson - Brossard - Montréal,3
+134,CITROUS,T-34,Taxibus Sainte-Catherine (sur réservation),3
+200,CITROUS,200,Delson - Lasalle -Montréal (Terminus Angrignon),3
+210,CITROUS,210,Delson - Longueuil,3
+30,CITROUS,30,Delson - Saint-Constant - Sainte-Catherine,3
+31,CITROUS,31,Sainte-Catherine est,3
+32,CITROUS,32,Sainte-Catherine,3
+33,CITROUS,33,Sainte-Catherine - Saint-Constant,3
+34,CITROUS,34,Saint-Constant ouest,3
+35,CITROUS,35,Saint-Constant sud,3
+36,CITROUS,36,Delson sud,3
+38,CITROUS,38,Sainte-Catherine,3
