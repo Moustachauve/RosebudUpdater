@@ -19,7 +19,7 @@ exports.resetTransportDatabase = function (database, callback) {
 		
 		log.verbose('Creating tables for database "' + database + '"...')
 		
-		sqlHelper.executeSqlFromFile(path.resolve('./lib/gtfs/sql/gtfs_schema.mysql'), sqlCon, function (err) {
+		sqlHelper.executeSqlFromFile(path.resolve('./lib/gtfs/sql/gtfs_schema.sql'), sqlCon, function (err) {
 			if (err) {
 				callback(err)
 				return

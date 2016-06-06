@@ -1,0 +1,762 @@
+route_id,direction_id,trip_headsign,shape_id,service_id,trip_id,trip_short_name
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030412,36_2_9_merged_102030858,18
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_13_merged_102030430,26
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030413,30_2_17_merged_102030882,16
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_2_merged_102030765,2
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_10_merged_102030742,20
+130,0,Direction Montréal,130_2,0102030405_merged_102030409,130_2_3_merged_102030772,6
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_37_merged_102030693,22
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_6_merged_102030423,12
+37,0,Direction Pricipale/Marie-Victorin,37_2,0102030405_merged_102030412,37_2_3_merged_102031058,26
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_4_merged_102030851,7
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_5_merged_102031144,5
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_4_merged_102030796,8
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_11_merged_102031083,24
+30,1,Direction Ste-Catherine,30_1,07_merged_102030414,30_1_25_merged_102030817,13
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_8_merged_102030425,16
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030412,210_2_1_merged_102030870,2
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030409,30_1_5_merged_102030460,9
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_19_merged_102030428,38
+100,1,Direction Delson,100_3,0102030405_merged_102030412,100_3_3_merged_102031032,39
+38,0,Service AM,38_2,0102030405_merged_102030412,38_2_5_merged_102030938,10
+38,1,Service PM,38_1,0102030405_merged_102030409,38_1_3_merged_102030570,5
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_33_merged_102030697,14
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_42_merged_102030586,23
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_4_merged_102031145,4
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030412,210_1_3_merged_102030823,5
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_32_merged_102030698,12
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_6_merged_102031106,12
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_18_merged_102030531,18
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030411,30_2_24_merged_102030762,14
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_2_merged_102030478,3
+130,0,Direction Montréal,130_2,0102030405_merged_102030412,130_2_2_merged_102031148,4
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030412,37_4_7_merged_102031053,16
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_27_merged_102030599,61
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030409,210_1_2,3
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030409,210_1_1,1
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_16_merged_102030810,32
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_10_merged_102030427,22
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_20_merged_102030781,13
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030412,30_1_1_merged_102030838,1
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_13_merged_102030706,30
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030412,37_4_4_merged_102031050,10
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030412,36_1_7_merged_102030924,11
+38,0,Service AM,38_2,0102030405_merged_102030409,38_2_2_merged_102030562,4
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_1_merged_102031045,2
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_37_merged_102030627,13
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_4_merged_102030421,8
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_26_merged_102030598,59
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_12_merged_102030533,23
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_32_merged_102030630,3
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_17_merged_102030434,34
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_5_merged_102030797,10
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_10_merged_102030791,20
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030412,30_2_8_merged_102030889,16
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030409,30_1_6_merged_102030457,11
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_2_merged_102031029,3
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_7_merged_102030757,16
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_8_merged_102030856,15
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_1_merged_102030609,2
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_19_merged_102030905,19
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_36_merged_102031001,11
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_7_merged_102030669,14
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_13_merged_102031116,26
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_12_merged_102030790,24
+30,1,Direction Ste-Catherine,30_1,07_merged_102030411,30_1_21_merged_102030438,5
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_26_merged_102031162,25
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030412,33_1_6_merged_102030995,15
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030412,33_4_8_merged_102031060,16
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_15_merged_102030552,8
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_10_merged_102030433,20
+100,0,Direction Montréal,100_4,0102030405_merged_102030409,100_4_4_merged_102030736,42
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030410,30_2_12_merged_102030512,6
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030409,210_2_2_merged_102030496,4
+30,1,Direction Ste-Catherine,30_1,07_merged_102030414,30_1_20_merged_102030814,3
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030409,33_4_2_merged_102030687,4
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_3_merged_102030764,3
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_15_merged_102030538,31
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_7_merged_102031132,16
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030409,37_4_10_merged_102030565,24
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030409,36_1_6_merged_102030548,9
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_25_merged_102030967,58
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_7_merged_102031142,7
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_7_merged_102030732,14
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030414,30_2_21_merged_102031134,8
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_39_merged_102031000,17
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_3_merged_102030607,6
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_30_merged_102030700,8
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_20_merged_102030604,43
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_10_merged_102031117,20
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_16_merged_102030912,33
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030412,30_1_8_merged_102030830,15
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_16_merged_102030709,38
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030412,33_1_1_merged_102030996,1
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_17_merged_102030911,35
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030409,210_2_6_merged_102030494,12
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030409,30_2_8_merged_102030514,16
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_33_merged_102031006,5
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_15_merged_102030436,30
+38,1,Service PM,38_1,0102030405_merged_102030412,38_1_8_merged_102030956,15
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_5_merged_102030987,10
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_5_merged_102030422,10
+30,1,Direction Ste-Catherine,30_1,07_merged_102030411,30_1_25_merged_102030442,13
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_17_merged_102030901,17
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030414,30_2_25_merged_102031138,16
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030409,210_2_5_merged_102030493,10
+38,0,Service AM,38_2,0102030405_merged_102030409,38_2_4_merged_102030564,8
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030409,33_1_4_merged_102030618,11
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_24_merged_102030593,56
+33,1,Direction Stationnement Georges-Gagné,33_3,0102030405_merged_102030412,33_3_3_merged_102031010,9
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030413,30_2_16_merged_102030883,14
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_18_merged_102030429,36
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_6_merged_102030650,11
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_3_merged_102031028,5
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_14_merged_102031094,28
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030412,30_2_7_merged_102030895,14
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030412,36_2_5_merged_102030862,10
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_16_merged_102030472,5
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_24_merged_102030975,53
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030412,37_4_5_merged_102031051,12
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_13_merged_102030933,4
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030412,36_2_11_merged_102031119,22
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_12_merged_102030431,24
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_27_merged_102031161,27
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_23_merged_102031157,19
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_5_merged_102030651,9
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_17_merged_102030526,17
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030412,30_2_9_merged_102030888,18
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030409,210_1_8_merged_102030454,15
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_20_merged_102030597,48
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_1_merged_102030751,2
+100,0,Direction Montréal,100_4,0102030405_merged_102030409,100_4_2_merged_102030733,26
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_8_merged_102031098,16
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_16_merged_102030930,10
+30,1,Direction Ste-Catherine,30_1,07_merged_102030411,30_1_24_merged_102030443,11
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_14_merged_102030914,27
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_45_merged_102030958,29
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030409,30_1_7_merged_102030458,13
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_19_merged_102030540,41
+130,0,Direction Montréal,130_2,0102030405_merged_102030409,130_2_11_merged_102030556,22
+30,1,Direction Ste-Catherine,30_1,06_merged_102030413,30_1_9_merged_102030831,1
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_17_merged_102030554,12
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030413,30_2_12_merged_102030887,6
+100,1,Direction Delson,100_3,0102030405_merged_102030412,100_3_4_merged_102031035,47
+38,0,Service AM,38_2,0102030405_merged_102030412,38_2_7_merged_102030991,14
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_21_merged_102030980,45
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030409,33_4_3_merged_102030688,6
+33,1,Direction Stationnement Georges-Gagné,33_3,0102030405_merged_102030409,33_3_3_merged_102030635,9
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_2_merged_102030727,4
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_36_merged_102031069,20
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_2_merged_102030983,4
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_13_merged_102030844,25
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030412,33_4_3_merged_102031063,6
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030409,37_4_1_merged_102030679,4
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_17_merged_102030718,34
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_10_merged_102030802,22
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030412,36_1_3_merged_102030921,5
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030409,30_2_5_merged_102030518,10
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_18_merged_102030839,9
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030409,30_1_8_merged_102030455,15
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_19_merged_102030840,11
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_26_merged_102030973,59
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030412,36_1_9_merged_102030918,15
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_12_merged_102030559,2
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_18_merged_102030541,37
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030409,33_1_3_merged_102030622,7
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_10_merged_102030416,20
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_27_merged_102030949,2
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_13_merged_102031089,26
+200,0,Direction Montréal,200_2,0102030405_merged_102030409,200_2_4_merged_102030663,8
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030409,36_2_1_merged_102030491,2
+100,1,Direction Delson,100_3,0102030405_merged_102030409,100_3_1_merged_102030656,15
+130,0,Direction Montréal,130_2,0102030405_merged_102030409,130_2_8_merged_102030779,16
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_12_merged_102030713,24
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_5_merged_102030755,12
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_3_merged_102030672,6
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_28_merged_102030789,29
+130,0,Direction Montréal,130_2,0102030405_merged_102030412,130_2_6_merged_102031152,12
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_36_merged_102030694,20
+30,1,Direction Ste-Catherine,30_1,07_merged_102030414,30_1_21_merged_102030813,5
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030409,210_2_4_merged_102030492,8
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030411,30_2_20_merged_102030758,6
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_17_merged_102031085,40
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_2_merged_102030671,4
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_23_merged_102030969,54
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030409,210_1_6_merged_102030451,11
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030412,37_4_6_merged_102031052,14
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_9_merged_102030614,18
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030410,30_2_10_merged_102030510,2
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030409,210_2_8,16
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030409,210_2_9,18
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030409,210_2_7,14
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030412,210_1_5_merged_102030827,9
+33,0,Direction Stationnement Georges-Gagné,33_2,0102030405_merged_102030409,33_2_1_merged_102030746,2
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_18_merged_102030464,9
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_7_merged_102031024,13
+200,1,Direction Delson,200_1,0102030405_merged_102030412,200_1_4_merged_102031008,7
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030412,36_2_3_merged_102030864,6
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_3_merged_102031103,6
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_43_merged_102030960,25
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030412,33_4_2_merged_102031062,4
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_6_merged_102030474,11
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_2_merged_102030794,4
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030409,36_2_10_merged_102030745,20
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_1_merged_102030793,2
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030412,210_2_5_merged_102030868,10
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_22_merged_102030602,49
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_8_merged_102030481,15
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_14_merged_102030845,1
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030409,33_4_8_merged_102030685,16
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_17_merged_102030536,35
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_16_merged_102030717,32
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_4_merged_102030770,4
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_46_merged_102030957,31
+30,1,Direction Ste-Catherine,30_1,07_merged_102030411,30_1_26_merged_102030445,15
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_12_merged_102030740,24
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_10_merged_102030900,10
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_25_merged_102030572,28
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_19_merged_102031091,46
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_5_merged_102031026,9
+200,1,Direction Delson,200_1,0102030405_merged_102030409,200_1_3_merged_102030750,5
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_35_merged_102030695,18
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_17_merged_102030473,7
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_27_merged_102030590,62
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_16_merged_102030847,5
+30,1,Direction Ste-Catherine,30_1,07_merged_102030414,30_1_27_merged_102030819,17
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_14_merged_102030437,28
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_13_merged_102030897,13
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_25_merged_102030976,55
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_12_merged_102030523,12
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030412,30_1_3_merged_102030837,5
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_12_merged_102030468,23
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_21_merged_102030576,20
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030413,30_2_10_merged_102030885,2
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_12_merged_102030934,2
+100,1,Direction Delson,100_3,0102030405_merged_102030409,100_3_5_merged_102030659,57
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_9_merged_102030801,18
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_3_merged_102030753,6
+30,1,Direction Ste-Catherine,30_1,07_merged_102030414,30_1_24_merged_102030818,11
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_21_merged_102031155,15
+30,1,Direction Ste-Catherine,30_1,07_merged_102030414,30_1_22_merged_102030816,7
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030409,210_2_1_merged_102030495,2
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_23_merged_102030953,24
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_39_merged_102030702,26
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_12_merged_102030415,24
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_21_merged_102030780,15
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_11_merged_102030842,21
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_45_merged_102030583,29
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_6,0102030405_merged_102030412,37_6_1_merged_102031012,30
+30,1,Direction Ste-Catherine,30_1,06_merged_102030410,30_1_10_merged_102030644,3
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_1_merged_102031030,1
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_24_merged_102031160,21
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_8_merged_102031079,8
+30,1,Direction Ste-Catherine,30_1,07_merged_102030411,30_1_20_merged_102030439,3
+130,0,Direction Montréal,130_2,0102030405_merged_102030409,130_2_2_merged_102030773,4
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030412,37_4_3_merged_102031056,8
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_19_merged_102030530,19
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_11_merged_102030743,22
+100,1,Direction Delson,100_3,0102030405_merged_102030409,100_3_3_merged_102030657,39
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_14_merged_102030719,28
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030409,36_2_7_merged_102030485,14
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_3_merged_102030420,6
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_38_merged_102030624,15
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030412,33_4_7_merged_102031067,14
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_16_merged_102031084,38
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_1_merged_102030726,2
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_28_merged_102030954,4
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030409,36_2_4_merged_102030488,8
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030412,37_4_8_merged_102031048,18
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_40_merged_102030721,28
+200,1,Direction Delson,200_1,0102030405_merged_102030409,200_1_4_merged_102030633,7
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_15_merged_102030712,36
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_9_merged_102031040,18
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_8_merged_102031039,16
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_6_merged_102030731,12
+38,0,Service AM,38_2,0102030405_merged_102030409,38_2_5_merged_102030563,10
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_15_merged_102031095,30
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_7_merged_102030649,13
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_20_merged_102031100,40
+30,1,Direction Ste-Catherine,30_1,06_merged_102030410,30_1_16_merged_102030642,15
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_24_merged_102030946,26
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_3_merged_102030854,5
+38,1,Service PM,38_1,0102030405_merged_102030412,38_1_2_merged_102030944,3
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_34_merged_102031003,7
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_14_merged_102031086,32
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_34_merged_102030628,7
+100,0,Direction Montréal,100_4,0102030405_merged_102030412,100_4_3_merged_102031109,34
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_11_merged_102030792,22
+38,0,Service AM,38_2,0102030405_merged_102030409,38_2_7_merged_102030616,14
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_8_merged_102031122,18
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_6_merged_102030849,11
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_15_merged_102030739,30
+37,0,Direction Pricipale/Marie-Victorin,37_2,0102030405_merged_102030409,37_2_3_merged_102030683,26
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_8_merged_102030747,18
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_16_merged_102030527,16
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_20_merged_102030575,18
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_14_merged_102030738,28
+37,0,Direction Pricipale/Marie-Victorin,37_2,0102030405_merged_102030412,37_2_2_merged_102031057,20
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030410,30_2_11_merged_102030509,4
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030409,36_2_8_merged_102030484,16
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_10_merged_102030910,19
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_12_merged_102030705,28
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_1_merged_102031141,1
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_22_merged_102031158,17
+130,0,Direction Montréal,130_2,0102030405_merged_102030409,130_2_7_merged_102030776,14
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030412,30_2_4_merged_102030894,8
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_11_merged_102030909,21
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_16_merged_102030555,10
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_5_merged_102030730,10
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_15_merged_102030811,30
+200,0,Direction Montréal,200_2,0102030405_merged_102030409,200_2_2_merged_102030661,4
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_38_merged_102030999,15
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_31_merged_102030699,10
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_24_merged_102030968,56
+30,1,Direction Ste-Catherine,30_1,06_merged_102030410,30_1_18_merged_102030638,19
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_11_merged_102030899,11
+38,1,Service PM,38_1,0102030405_merged_102030412,38_1_6_merged_102030873,11
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030409,30_1_2_merged_102030461,3
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_4_merged_102030476,7
+38,1,Service PM,38_1,0102030405_merged_102030412,38_1_5_merged_102030876,9
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_26_merged_102030787,25
+130,0,Direction Montréal,130_2,0102030405_merged_102030412,130_2_9_merged_102031153,18
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_4_merged_102030729,8
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030413,30_2_14_merged_102030881,10
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_42_merged_102030961,23
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_7_merged_102030850,13
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_9_merged_102030482,17
+38,0,Service AM,38_2,0102030405_merged_102030412,38_2_6_merged_102030821,12
+130,0,Direction Montréal,130_2,0102030405_merged_102030409,130_2_5_merged_102030774,10
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_15_merged_102030846,3
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030409,30_1_3_merged_102030462,5
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_5_merged_102030477,9
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_29_merged_102030955,6
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_9_merged_102031023,17
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_25_merged_102030784,23
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030409,33_1_7_merged_102030619,17
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_3_merged_102031139,3
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_40_merged_102030588,19
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030409,33_1_2_merged_102030623,5
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_27_merged_102030574,2
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_16_merged_102030537,33
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_23_merged_102030578,24
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_9_merged_102030857,17
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030410,30_2_14_merged_102030506,10
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030411,30_2_19_merged_102030502,4
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_7_merged_102030424,14
+38,0,Service AM,38_2,0102030405_merged_102030412,38_2_2_merged_102030937,4
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030409,30_1_1_merged_102030463,1
+130,0,Direction Montréal,130_2,0102030405_merged_102030412,130_2_5_merged_102031149,10
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_2_merged_102030853,3
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_10_merged_102030822,20
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030412,36_1_8_merged_102030917,13
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030414,30_2_24_merged_102031137,14
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_40_merged_102030963,19
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030409,36_1_9_merged_102030543,15
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030412,210_1_6_merged_102030826,11
+30,1,Direction Ste-Catherine,30_1,06_merged_102030410,30_1_17_merged_102030643,17
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_26_merged_102030948,30
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030409,30_2_1_merged_102030515,2
+30,1,Direction Ste-Catherine,30_1,06_merged_102030413,30_1_16_merged_102031017,15
+38,1,Service PM,38_1,0102030405_merged_102030412,38_1_1_merged_102030879,1
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_6_merged_102030768,6
+30,1,Direction Ste-Catherine,30_1,06_merged_102030410,30_1_14_merged_102030640,11
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_26_merged_102030966,60
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_2_merged_102031127,4
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_14_merged_102030470,1
+33,1,Direction Stationnement Georges-Gagné,33_3,0102030405_merged_102030409,33_3_1_merged_102030636,3
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030411,30_2_25_merged_102030763,16
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_24_merged_102030571,26
+38,1,Service PM,38_1,0102030405_merged_102030412,38_1_7_merged_102030874,13
+33,0,Direction Stationnement Georges-Gagné,33_2,0102030405_merged_102030412,33_2_1_merged_102031121,2
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030409,33_4_9_merged_102030686,18
+30,1,Direction Ste-Catherine,30_1,06_merged_102030413,30_1_13_merged_102031022,9
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_1_merged_102030766,1
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_5_merged_102030852,9
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_31_merged_102031007,1
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_4_merged_102030666,8
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_25_merged_102030601,55
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_11_merged_102030432,22
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_14_merged_102031113,28
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030412,30_2_3_merged_102030891,6
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030412,30_2_5_merged_102030893,10
+30,1,Direction Ste-Catherine,30_1,07_merged_102030411,30_1_19_merged_102030639,1
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030412,36_1_6_merged_102030923,9
+30,1,Direction Ste-Catherine,30_1,06_merged_102030410,30_1_15_merged_102030641,13
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_26_merged_102030573,30
+37,0,Direction Pricipale/Marie-Victorin,37_2,0102030405_merged_102030412,37_2_1_merged_102031059,2
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_1_merged_102031101,2
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_13_merged_102030532,25
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_18_merged_102030804,36
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_1_merged_102030418,2
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_23_merged_102030782,19
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_33_merged_102031072,14
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030414,30_2_19_merged_102030877,4
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030414,30_2_18_merged_102030878,2
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030414,30_2_23_merged_102031136,12
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030409,30_2_3_merged_102030516,6
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_9_merged_102031135,9
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_9_merged_102030665,18
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_18_merged_102030926,14
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_17_merged_102031093,34
+33,1,Direction Stationnement Georges-Gagné,33_3,0102030405_merged_102030412,33_3_1_merged_102031011,3
+130,0,Direction Montréal,130_2,0102030405_merged_102030409,130_2_9_merged_102030778,18
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030412,33_1_3_merged_102030997,7
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_13_merged_102030558,4
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_6_merged_102031143,6
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_26_merged_102030591,60
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_14_merged_102030711,32
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_11_merged_102030524,11
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_13_merged_102030714,26
+100,1,Direction Delson,100_3,0102030405_merged_102030412,100_3_1_merged_102031031,15
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030412,37_4_10_merged_102030940,24
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_9_merged_102030648,17
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_11_merged_102030807,22
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_6,0102030405_merged_102030409,37_6_1_merged_102030637,30
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030409,36_2_2_merged_102030490,4
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030409,33_4_5_merged_102030690,10
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_12_merged_102030806,24
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_6_merged_102030986,12
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_21_merged_102030596,50
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_37_merged_102031068,22
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_10_merged_102030466,19
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030412,33_4_4_merged_102031064,8
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_3_merged_102030728,6
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030409,37_4_7_merged_102030678,16
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_20_merged_102030972,48
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_39_merged_102030625,17
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_15_merged_102030471,3
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030409,36_1_3_merged_102030546,5
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030412,36_1_5_merged_102030922,7
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030412,37_4_1_merged_102031054,4
+38,0,Service AM,38_2,0102030405_merged_102030409,38_2_6_merged_102030446,12
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_28_merged_102030964,64
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030409,33_4_7_merged_102030692,14
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_10_merged_102030535,19
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_2_merged_102031140,2
+38,1,Service PM,38_1,0102030405_merged_102030409,38_1_5_merged_102030501,9
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030409,36_2_3_merged_102030489,6
+130,0,Direction Montréal,130_2,0102030405_merged_102030412,130_2_1_merged_102031146,2
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_10_merged_102030525,10
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_28_merged_102031164,29
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030413,30_2_11_merged_102030884,4
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030409,210_1_5_merged_102030452,9
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030409,37_4_11_merged_102030566,28
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030412,30_1_2_merged_102030836,3
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_13_merged_102031081,30
+130,0,Direction Montréal,130_2,0102030405_merged_102030409,130_2_4_merged_102030775,8
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_20_merged_102031156,13
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_7_merged_102030767,7
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_21_merged_102030971,50
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_33_merged_102030631,5
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_11_merged_102031118,22
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_6_merged_102031131,14
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_2_merged_102030654,3
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030409,36_1_8_merged_102030542,13
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030409,30_2_9_merged_102030513,18
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030409,30_2_6_merged_102030521,12
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_3_merged_102031128,6
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_12_merged_102030898,12
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_6_merged_102030611,12
+38,1,Service PM,38_1,0102030405_merged_102030409,38_1_8_merged_102030581,15
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_7_merged_102030985,14
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030412,33_4_6_merged_102031066,12
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_31_merged_102030632,1
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030409,33_4_6_merged_102030691,12
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_5_merged_102031105,10
+38,0,Service AM,38_2,0102030405_merged_102030412,38_2_9_merged_102030942,18
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_19_merged_102030550,16
+30,1,Direction Ste-Catherine,30_1,07_merged_102030414,30_1_23_merged_102030815,9
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_12_merged_102031088,24
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_17_merged_102030929,12
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_11_merged_102030824,22
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030409,36_1_7_merged_102030549,11
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_12_merged_102030908,23
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030409,36_2_5_merged_102030487,10
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_1_merged_102030480,1
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_41_merged_102030587,21
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030409,33_4_4_merged_102030689,8
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030412,210_2_3_merged_102030872,6
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030409,30_2_7_merged_102030520,14
+100,0,Direction Montréal,100_4,0102030405_merged_102030409,100_4_1_merged_102030735,8
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_3_merged_102030795,6
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_5_merged_102031042,10
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030412,33_4_5_merged_102031065,10
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030412,210_1_4_merged_102030828,7
+38,1,Service PM,38_1,0102030405_merged_102030412,38_1_4_merged_102030875,7
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_23_merged_102030978,51
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030412,210_2_2_merged_102030871,4
+130,0,Direction Montréal,130_2,0102030405_merged_102030412,130_2_10_merged_102030932,20
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_7_merged_102031107,14
+200,0,Direction Montréal,200_2,0102030405_merged_102030412,200_2_4_merged_102031038,8
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030412,33_1_2_merged_102030998,5
+200,0,Direction Montréal,200_2,0102030405_merged_102030409,200_2_1,2
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030412,30_2_2_merged_102030892,4
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_6_merged_102031043,12
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030409,37_4_6_merged_102030677,14
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_13_merged_102030469,25
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030410,30_2_13_merged_102030511,8
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_15_merged_102030528,15
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_1_merged_102030984,2
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_19_merged_102030465,11
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_22_merged_102030783,17
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_8_merged_102030800,16
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_12_merged_102031080,28
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_19_merged_102030915,41
+38,0,Service AM,38_2,0102030405_merged_102030412,38_2_4_merged_102030939,8
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_3_merged_102030982,6
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030409,37_4_8_merged_102030673,18
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_44_merged_102030959,27
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030409,36_2_6_merged_102030486,12
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_4_merged_102031041,8
+30,1,Direction Ste-Catherine,30_1,07_merged_102030411,30_1_23_merged_102030440,9
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_4_merged_102031129,10
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_35_merged_102031070,18
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030411,30_2_18_merged_102030503,2
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_14_merged_102030812,28
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_41_merged_102030722,30
+200,1,Direction Delson,200_1,0102030405_merged_102030412,200_1_3_merged_102031125,5
+38,1,Service PM,38_1,0102030405_merged_102030409,38_1_6_merged_102030498,11
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_2_merged_102031046,4
+100,0,Direction Montréal,100_4,0102030405_merged_102030409,100_4_5_merged_102030737,66
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_23_merged_102030594,54
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_18_merged_102030551,14
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_6_merged_102031025,11
+37,0,Direction Pricipale/Marie-Victorin,37_2,0102030405_merged_102030409,37_2_2_merged_102030682,20
+100,1,Direction Delson,100_3,0102030405_merged_102030409,100_3_4_merged_102030660,47
+130,0,Direction Montréal,130_2,0102030405_merged_102030412,130_2_3_merged_102031147,6
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_13_merged_102030805,26
+200,0,Direction Montréal,200_2,0102030405_merged_102030412,200_2_5_merged_102031037,10
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030412,210_2_4_merged_102030867,8
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_5_merged_102030769,5
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_20_merged_102030979,43
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030414,30_2_20_merged_102031133,6
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_11_merged_102030449,22
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_8_merged_102030723,16
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_9_merged_102031123,20
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_25_merged_102030947,28
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_20_merged_102030725,40
+200,1,Direction Delson,200_1,0102030405_merged_102030409,200_1_2_merged_102030749,3
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_22_merged_102030952,22
+30,1,Direction Ste-Catherine,30_1,07_merged_102030411,30_1_22_merged_102030441,7
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030409,30_2_2_merged_102030517,4
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_18_merged_102030707,36
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030412,36_2_8_merged_102030859,16
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030409,37_4_4_merged_102030675,10
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_13_merged_102030741,26
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_11_merged_102030467,21
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030412,30_1_6_merged_102030832,11
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_35_merged_102030629,9
+30,1,Direction Ste-Catherine,30_1,06_merged_102030410,30_1_13_merged_102030647,9
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_9_merged_102031099,18
+130,0,Direction Montréal,130_2,0102030405_merged_102030412,130_2_4_merged_102031150,8
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_15_merged_102030903,15
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_14_merged_102030539,27
+30,1,Direction Ste-Catherine,30_1,06_merged_102030413,30_1_18_merged_102031013,19
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030413,30_2_13_merged_102030886,8
+130,0,Direction Montréal,130_2,0102030405_merged_102030412,130_2_11_merged_102030931,22
+200,1,Direction Delson,200_1,0102030405_merged_102030409,200_1_5_merged_102030634,9
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_38_merged_102031078,24
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_27_merged_102030974,61
+100,0,Direction Montréal,100_4,0102030405_merged_102030412,100_4_4_merged_102031111,42
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030409,37_4_5_merged_102030676,12
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030411,30_2_21_merged_102030759,8
+38,0,Service AM,38_2,0102030405_merged_102030409,38_2_8_merged_102030568,16
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_24_merged_102030785,21
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_7_merged_102030799,14
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030409,210_1_3_merged_102030448,5
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_14_merged_102030529,14
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_2_merged_102030608,4
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_10_merged_102030808,20
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_19_merged_102030925,16
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_7_merged_102030610,14
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_9_merged_102030724,18
+100,0,Direction Montréal,100_4,0102030405_merged_102030409,100_4_3_merged_102030734,34
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030409,36_2_11_merged_102030744,22
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_44_merged_102030584,27
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_2_merged_102031102,4
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_3_merged_102031047,6
+30,1,Direction Ste-Catherine,30_1,06_merged_102030413,30_1_15_merged_102031016,13
+30,1,Direction Ste-Catherine,30_1,06_merged_102030413,30_1_11_merged_102031020,5
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_4_merged_102030754,10
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_19_merged_102030716,46
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_1_merged_102030670,2
+100,0,Direction Montréal,100_4,0102030405_merged_102030412,100_4_5_merged_102031112,66
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_12_merged_102030843,23
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030410,30_2_15_merged_102030505,12
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030409,210_1_7_merged_102030450,13
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_37_merged_102031002,13
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_28_merged_102030589,64
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030409,37_4_9_merged_102030674,22
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_39_merged_102031077,26
+100,0,Direction Montréal,100_4,0102030405_merged_102030412,100_4_2_merged_102031108,26
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_10_merged_102030841,19
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_11_merged_102030417,22
+200,1,Direction Delson,200_1,0102030405_merged_102030412,200_1_2_merged_102031124,3
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030409,37_4_2_merged_102030680,6
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_17_merged_102030710,40
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_24_merged_102030600,53
+38,0,Service AM,38_2,0102030405_merged_102030409,38_2_1_merged_102030560,2
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030409,33_1_5_merged_102030617,13
+200,0,Direction Montréal,200_2,0102030405_merged_102030409,200_2_3,6
+200,0,Direction Montréal,200_2,0102030405_merged_102030412,200_2_2_merged_102031036,4
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_8_merged_102030615,16
+200,0,Direction Montréal,200_2,0102030405_merged_102030409,200_2_7,14
+200,0,Direction Montréal,200_2,0102030405_merged_102030409,200_2_6,12
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_9_merged_102030748,20
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030412,30_1_7_merged_102030833,13
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_16_merged_102030902,16
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030412,36_2_4_merged_102030863,8
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030412,36_2_1_merged_102030866,2
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_5_merged_102030667,10
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030413,30_2_15_merged_102030880,12
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_15_merged_102031114,30
+38,1,Service PM,38_1,0102030405_merged_102030412,38_1_3_merged_102030945,5
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_35_merged_102031004,9
+30,1,Direction Ste-Catherine,30_1,07_merged_102030411,30_1_27_merged_102030444,17
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030409,37_4_3_merged_102030681,8
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030412,36_2_10_merged_102031120,20
+38,0,Service AM,38_2,0102030405_merged_102030412,38_2_3_merged_102030936,6
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_32_merged_102031005,3
+30,1,Direction Ste-Catherine,30_1,06_merged_102030410,30_1_9_merged_102030456,1
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030412,36_1_2_merged_102030920,3
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030412,30_1_5_merged_102030835,9
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_20_merged_102030950,18
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030412,36_2_6_merged_102030861,12
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_14_merged_102030904,14
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_14_merged_102030553,6
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_2_merged_102030419,4
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030409,33_1_6_merged_102030620,15
+100,1,Direction Delson,100_3,0102030405_merged_102030409,100_3_2_merged_102030658,29
+130,0,Direction Montréal,130_2,0102030405_merged_102030412,130_2_7_merged_102031151,14
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_27_merged_102030786,27
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030409,210_2_3_merged_102030497,6
+30,1,Direction Ste-Catherine,30_1,06_merged_102030410,30_1_11_merged_102030645,5
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030412,30_2_1_merged_102030890,2
+100,1,Direction Delson,100_3,0102030405_merged_102030412,100_3_5_merged_102031034,57
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030412,36_1_1_merged_102030919,1
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_30_merged_102031075,8
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_1_merged_102030655,1
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_28_merged_102030981,63
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_4_merged_102030613,8
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_36_merged_102030626,11
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030410,30_2_17_merged_102030507,16
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030409,36_2_9_merged_102030483,18
+100,1,Direction Delson,100_3,0102030405_merged_102030412,100_3_2_merged_102031033,29
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_12_merged_102031115,24
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_11_merged_102030534,21
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_5_merged_102030612,10
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_15_merged_102030720,30
+130,1,Direction Delson,130_1,0102030405_merged_102030412,130_1_1_merged_102030855,1
+130,0,Direction Montréal,130_2,0102030405_merged_102030412,130_2_8_merged_102031154,16
+30,1,Direction Ste-Catherine,30_1,06_merged_102030413,30_1_17_merged_102031018,17
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030412,33_1_5_merged_102030992,13
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_18_merged_102030916,37
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030412,210_1_7_merged_102030825,13
+38,0,Service AM,38_2,0102030405_merged_102030412,38_2_1_merged_102030935,2
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_21_merged_102030605,45
+34,1,Direction St-Constant,34_3,0102030405_merged_102030412,34_3_7_merged_102031044,14
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_46_merged_102030582,31
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030412,30_1_4_merged_102030834,7
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030412,210_1_8_merged_102030829,15
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_22_merged_102030977,49
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030412,33_1_4_merged_102030993,11
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_28_merged_102030579,4
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030411,30_2_22_merged_102030701,10
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_8_merged_102030664,16
+130,1,Direction Delson,130_1,07_merged_102030414,130_1_41_merged_102030962,21
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_8_merged_102030704,8
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030412,33_1_7_merged_102030994,17
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030412,36_2_2_merged_102030865,4
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_6_merged_102030756,14
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030412,37_4_2_merged_102031055,6
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_17_merged_102030809,34
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_19_merged_102030803,38
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_22_merged_102030970,52
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_34_merged_102030696,16
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_21_merged_102030951,20
+30,1,Direction Ste-Catherine,30_1,06_merged_102030413,30_1_12_merged_102031021,7
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_40_merged_102031096,28
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_17_merged_102030848,7
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_25_merged_102031159,23
+130,0,Direction Montréal,130_2,0102030405_merged_102030409,130_2_10_merged_102030557,20
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_34_merged_102031071,16
+30,0,Direction Ste-Catherine/St-Constant,30_2,06_merged_102030410,30_2_16_merged_102030508,14
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_8_merged_102030990,16
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_23_merged_102030603,51
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_4_merged_102030988,8
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030412,37_4_9_merged_102031049,22
+30,1,Direction Ste-Catherine,30_1,0102030405_merged_102030409,30_1_4_merged_102030459,7
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_18_merged_102030715,44
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_16_merged_102031092,32
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030409,32_2_16_merged_102030435,32
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_4_merged_102031027,7
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030412,39_2_6_merged_102030798,12
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030412,30_2_6_merged_102030896,12
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_22_merged_102030595,52
+36,0,Direction Delson sud AM,36_2,0102030405_merged_102030412,36_2_7_merged_102030860,14
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_15_merged_102030913,31
+37,0,Direction Stationnement Incitatif Georges-Gagné,37_4,0102030405_merged_102030412,37_4_11_merged_102030941,28
+130,0,Direction Montréal,130_2,0102030405_merged_102030409,130_2_6_merged_102030777,12
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_18_merged_102031090,44
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030414,30_2_22_merged_102031076,10
+200,1,Direction Delson,200_1,0102030405_merged_102030412,200_1_5_merged_102031009,9
+30,1,Direction Ste-Catherine,30_1,07_merged_102030414,30_1_26_merged_102030820,15
+38,1,Service PM,38_1,0102030405_merged_102030409,38_1_2_merged_102030569,3
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_25_merged_102030592,58
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_1_merged_102031126,2
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030409,31_2_10_merged_102030447,20
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_3_merged_102030653,5
+210,0,Delson-Longueuil-Delson,210_2,0102030405_merged_102030412,210_2_6_merged_102030869,12
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_4_merged_102030652,7
+210,1,Delson-Longueuil-Delson,210_1,0102030405_merged_102030409,210_1_4_merged_102030453,7
+33,1,Direction Gare Ste-Catherine,33_1,0102030405_merged_102030409,33_1_1_merged_102030621,1
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_27_merged_102030965,62
+38,0,Service AM,38_2,0102030405_merged_102030409,38_2_9_merged_102030567,18
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030409,36_1_1_merged_102030544,1
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_2_merged_102030752,4
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_15_merged_102031087,36
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_18_merged_102031082,36
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_29_merged_102030580,6
+34,1,Direction St-Constant,34_3,0102030405_merged_102030409,34_3_6_merged_102030668,12
+30,1,Direction Ste-Catherine,30_1,06_merged_102030413,30_1_14_merged_102031015,11
+38,1,Service PM,38_1,0102030405_merged_102030409,38_1_1_merged_102030504,1
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_7_merged_102030475,13
+30,0,Direction Ste-Catherine/St-Constant,30_2,0102030405_merged_102030409,30_2_4_merged_102030519,8
+100,1,Direction Delson,100_1,0102030405_merged_102030409,100_1_28_merged_102030606,63
+130,1,Direction Delson,130_1,06_merged_102030413,130_1_29_merged_102031163,31
+32,0,Direction Ste-Catherine,32_2,0102030405_merged_102030412,32_2_9_merged_102030989,18
+130,0,Direction Montréal,130_2,06_merged_102030410,130_2_22_merged_102030577,22
+200,1,Direction Montréal-Delson,200_3,0102030405_merged_102030409,200_3_1,11
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030409,36_1_5_merged_102030547,7
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_32_merged_102031073,12
+100,0,Direction Montréal,100_4,0102030405_merged_102030412,100_4_1_merged_102031110,8
+130,1,Direction Delson,130_1,07_merged_102030411,130_1_43_merged_102030585,25
+38,0,Service AM,38_2,0102030405_merged_102030409,38_2_3_merged_102030561,6
+200,1,Direction Delson,200_1,0102030405_merged_102030409,200_1_1,1
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_31_merged_102031074,10
+130,1,Direction Delson,130_1,06_merged_102030410,130_1_29_merged_102030788,31
+100,1,Direction Delson,100_1,0102030405_merged_102030412,100_1_13_merged_102030907,25
+130,0,Direction Montréal,130_2,07_merged_102030414,130_2_41_merged_102031097,30
+130,0,Direction Montréal,130_2,0102030405_merged_102030409,130_2_1_merged_102030771,2
+39,0,Direction Ste-Catherine,39_2,0102030405_merged_102030409,39_2_9_merged_102030426,18
+130,1,Direction Delson,130_1,0102030405_merged_102030409,130_1_3_merged_102030479,5
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_15_merged_102030927,8
+30,1,Direction Ste-Catherine,30_1,06_merged_102030410,30_1_12_merged_102030646,7
+31,0,Direction Ste-Catherine,31_2,0102030405_merged_102030412,31_2_4_merged_102031104,8
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_13_merged_102030522,13
+38,1,Service PM,38_1,0102030405_merged_102030409,38_1_4_merged_102030500,7
+130,0,Direction Montréal,130_2,06_merged_102030413,130_2_14_merged_102030928,6
+35,1,Direction St-Constant,35_1,0102030405_merged_102030412,35_1_18_merged_102030906,18
+100,0,Direction Montréal,100_2,0102030405_merged_102030412,100_2_5_merged_102031130,12
+30,1,Direction Ste-Catherine,30_1,07_merged_102030414,30_1_19_merged_102031014,1
+38,1,Service PM,38_1,0102030405_merged_102030409,38_1_7_merged_102030499,13
+30,1,Direction Ste-Catherine,30_1,06_merged_102030413,30_1_10_merged_102031019,3
+35,1,Direction St-Constant,35_1,0102030405_merged_102030409,35_1_9_merged_102030760,9
+200,0,Direction Montréal,200_2,0102030405_merged_102030409,200_2_5_merged_102030662,10
+30,0,Direction Ste-Catherine/St-Constant,30_2,07_merged_102030411,30_2_23_merged_102030761,12
+37,0,Direction Pricipale/Marie-Victorin,37_2,0102030405_merged_102030409,37_2_1_merged_102030684,2
+130,0,Direction Montréal,130_2,07_merged_102030411,130_2_38_merged_102030703,24
+33,0,Direction Gare Ste-Catherine,33_4,0102030405_merged_102030412,33_4_9_merged_102031061,18
+36,1,Direction Delson sud PM,36_1,0102030405_merged_102030409,36_1_2_merged_102030545,3
+100,0,Direction Montréal,100_2,0102030405_merged_102030409,100_2_11_merged_102030708,24
+38,0,Service AM,38_2,0102030405_merged_102030412,38_2_8_merged_102030943,16

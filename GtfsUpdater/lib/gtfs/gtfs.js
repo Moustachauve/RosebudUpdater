@@ -4,8 +4,9 @@ var gtfs_get = require('./gtfs_get.js')
 var gtfs_parse = require('./gtfs_parse.js')
 var gtfs_sql = require('./gtfs_sql.js')
 var log = require('../log/log.js')
+var path = require('path')
 
-const PATH_GTFS_FILE = 'gtfs\\'
+const PATH_GTFS_FILE = 'gtfs/'
 
 //const URL_DOWNLOAD = 'http://www.amt.qc.ca/xdata/citrous/google_transit.zip'
 //const URL_DOWNLOAD = 'http://www.amt.qc.ca/xdata/express/google_transit.zip'
@@ -15,9 +16,11 @@ const PATH_GTFS_FILE = 'gtfs\\'
 exports.import = function (feedInfo, callback) {
 	
 	var start = process.hrtime()
-	var destinationFolder = PATH_GTFS_FILE + feedInfo.short_name + '\\'
+	var destinationFolder = path.join(PATH_GTFS_FILE, feedInfo.short_name)
+	var destinationFile = path.join(destinationFolder, 'gtfs.zip')
+	var destinationUnzipFolder = path.join(destinationFolder, 'unzip')
 
-	gtfs_get.get(feedInfo.url_gtfs, destinationFolder + 'gtfs.zip', function (err) {
+	gtfs_get.get(feedInfo.url_gtfs, destinationFile, function (err) {
 		if (err) {
 			var elapsed = (process.hrtime(start)[0] * 1000) + (process.hrtime(start)[1] / 1000000)
 			gtfs_sql.updateFeedInfo(feedInfo, false, elapsed, function () {
@@ -26,9 +29,9 @@ exports.import = function (feedInfo, callback) {
 			return
 		}
 		
-		gtfs_get.unzip(destinationFolder + 'gtfs.zip', destinationFolder + 'unzip', function (err) {
+		gtfs_get.unzip(destinationFile, destinationUnzipFolder, function (err) {
 			if (err) {
-				log.error('Could not unzip file "' + destinationFolder + 'gtfs.zip": ' + err)
+				log.error('Could not unzip file "' + destinationFile + '": ' + err)
 				var elapsed = (process.hrtime(start)[0] * 1000) + (process.hrtime(start)[1] / 1000000)
 				gtfs_sql.updateFeedInfo(feedInfo, false, elapsed, function () {
 					callback()
@@ -36,7 +39,7 @@ exports.import = function (feedInfo, callback) {
 				return
 			}
 			
-			gtfs_parse.parseFiles(feedInfo.database_name, destinationFolder + 'unzip', function (err) {
+			gtfs_parse.parseFiles(feedInfo.database_name, destinationUnzipFolder, function (err) {
 				if (err) {
 					var elapsed = (process.hrtime(start)[0] * 1000) + (process.hrtime(start)[1] / 1000000)
 					gtfs_sql.updateFeedInfo(feedInfo, false, elapsed, function () {
