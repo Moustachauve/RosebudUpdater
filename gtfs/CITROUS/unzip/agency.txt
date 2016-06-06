@@ -1,2 +1,0 @@
-agency_fare_url,agency_url,agency_id,agency_name,agency_timezone,agency_lang
-http://www.citroussillon.com/tarifs/,http://www.citroussillon.com/,CITROUS,CIT Roussillon,America/Montreal,fr
