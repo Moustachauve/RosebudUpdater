@@ -21,7 +21,7 @@ SET FOREIGN_KEY_CHECKS = 1;
 CREATE TABLE IF NOT EXISTS `agency` 
 (
 	`agency_id`				varchar(3)			NOT		NULL,
-	`agency_name`			varchar(40)			NOT		NULL,
+	`agency_name`			varchar(50)			NOT		NULL,
 	`agency_url`			varchar(60)			NOT		NULL,
 	`agency_timezone`		varchar(20)			NOT		NULL,
 	`agency_lang`			char(2)				DEFAULT NULL,
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `stops`
 (
 	`stop_id`				varchar(8)			NOT		NULL,
 	`stop_code`				varchar(5)			DEFAULT NULL,
-	`stop_name`				varchar(50)			NOT		NULL,
+	`stop_name`				varchar(60)			NOT		NULL,
 	`stop_desc`				varchar(150)		DEFAULT NULL,
 	`stop_lat`				varchar(10)			NOT		NULL,
 	`stop_lon`				varchar(10)			NOT		NULL,
@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS `routes`
 	`route_id`				varchar(3)			NOT		NULL,
 	`agency_id`				varchar(3)			DEFAULT NULL,
 	`route_short_name`		varchar(10)			NOT		NULL,
-	`route_long_name`		varchar(40)			NOT		NULL,
+	`route_long_name`		varchar(75)			NOT		NULL,
 	`route_desc`			varchar(100)		DEFAULT NULL,
 	`route_type`			tinyint				NOT		NULL,
 	`route_url`				varchar(100)		DEFAULT NULL,
@@ -70,7 +70,7 @@ CREATE TABLE IF NOT EXISTS `trips`
 	`trip_id`				varchar(20)			NOT		NULL,
 	`service_id`			varchar(3)			NOT		NULL,
 	`route_id`				varchar(3)			NOT		NULL,
-	`trip_headsign`			varchar(50)			DEFAULT NULL,
+	`trip_headsign`			varchar(60)			DEFAULT NULL,
 	`trip_short_name`		varchar(20)			DEFAULT NULL,
 	`direction_id`			tinyint				DEFAULT NULL,
 	`block_id`				varchar(20)			DEFAULT NULL,

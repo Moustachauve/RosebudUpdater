@@ -123,7 +123,7 @@ exports.sanitizeColumnList = function (dirtyColumns, table, callback) {
 exports.getFeeds = function (callback) {
 	var sqlCon = sqlHelper.getConnection()
 	
-	sqlCon.query('SELECT `feed_id`, `short_name`, `database_name`, `url_gtfs` FROM `my_bus`.`feed`', function (err, rows) {
+	sqlCon.query('SELECT `feed_id`, `database_name`, `url_gtfs` FROM `my_bus`.`feed`', function (err, rows) {
 		if (err) {
 			callback(err)
 			return
@@ -156,7 +156,7 @@ exports.updateFeedInfo = function (feed, isValid, duration, callback) {
 		}
 		
 		if (!rows.info.numRows) {
-			log.error('Infos for "' + feed.short_name + '" with id "' + feed.feed_id + '" was not be updated!')
+			log.error('Infos for "' + feed.database_name + '" with id "' + feed.feed_id + '" was not be updated!')
 		}
 		
 		callback()

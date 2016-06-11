@@ -9,8 +9,6 @@ SET FOREIGN_KEY_CHECKS = 1;
 CREATE TABLE IF NOT EXISTS `feed` 
 (
 	`feed_id`				int					NOT		NULL AUTO_INCREMENT,
-    `short_name`			varchar(10) 		NOT 	NULL,
-    `long_name`				varchar(30) 		NOT 	NULL,
     `database_name`			varchar(20)			NOT		NULL,
     `url_gtfs`				varchar(100)		NOT 	NULL,
     `data_valid`			tinyint				NOT		NULL,

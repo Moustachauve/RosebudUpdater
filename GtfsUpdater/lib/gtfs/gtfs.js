@@ -16,7 +16,7 @@ const PATH_GTFS_FILE = 'gtfs/'
 exports.import = function (feedInfo, callback) {
 	
 	var start = process.hrtime()
-	var destinationFolder = path.join(PATH_GTFS_FILE, feedInfo.short_name)
+	var destinationFolder = path.join(PATH_GTFS_FILE, feedInfo.database_name)
 	var destinationFile = path.join(destinationFolder, 'gtfs.zip')
 	var destinationUnzipFolder = path.join(destinationFolder, 'unzip')
 
@@ -48,7 +48,7 @@ exports.import = function (feedInfo, callback) {
 					return
 				}
 				var elapsed = (process.hrtime(start)[0] * 1000) + (process.hrtime(start)[1] / 1000000)
-				log.info('Importing "' + feedInfo.short_name +  '" took ' + elapsed + 'ms')
+				log.info('Importing "' + feedInfo.database_name +  '" took ' + elapsed + 'ms')
 				
 				gtfs_sql.updateFeedInfo(feedInfo, true, elapsed, function () {
 					callback(null, elapsed)
@@ -90,7 +90,7 @@ var importAllRecursive = function (feeds, index, callback) {
 		return
 	}
 	
-	log.verbose('Importing feed "' + feeds[index].short_name + '"...')
+	log.verbose('Importing feed "' + feeds[index].database_name + '"...')
 
 	exports.import(feeds[index], function (err) {
 		if (err) {
