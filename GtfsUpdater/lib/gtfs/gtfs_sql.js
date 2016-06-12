@@ -136,19 +136,19 @@ exports.getFeeds = function (callback) {
 		
 		callback(null, rows)
 		
-	});
+	})
 }
 
-exports.updateFeedInfo = function (feed, isValid, duration, callback) {
+exports.updateFeedInfoAfter = function (feed, isValid, duration, callback) {
 	log.verbose('Updating feed information...')
 	
 	if(!isValid)
-		log.warn('Data was not valid, so it will not be visible to users.')
+		log.error('Data for "' + feed.database_name + '" (' + feed.feed_id + ') was not valid, so it will not be visible to users.')
 
 	var sqlCon = sqlHelper.getConnection()
 	
 	sqlCon.query('UPDATE `my_bus`.`feed` SET `data_valid` = :isValid, `last_edit` = `last_edit`, `last_update` = current_timestamp, `last_update_duration` = :duration WHERE `feed_id` = :id',
-				{ isValid: isValid ? 1 : 0, duration: duration, id: feed.feed_id }, 
+				{ isValid: isValid ? 1 : -1, duration: duration, id: feed.feed_id }, 
 				function (err, rows) {
 		if (err) {
 			callback(err)
@@ -161,6 +161,28 @@ exports.updateFeedInfo = function (feed, isValid, duration, callback) {
 		
 		callback()
 		
-	});
+	})
+}
 
+exports.updateFeedInfoBefore = function (feed, callback) {
+
+	log.info('Updating "' + feed.database_name + '" (' + feed.feed_id + ')... It will not be visible to user while it is updating.')
+	
+	var sqlCon = sqlHelper.getConnection()
+	
+	sqlCon.query('UPDATE `my_bus`.`feed` SET `data_valid` = :isValid, `last_edit` = `last_edit`, `last_update` = current_timestamp WHERE `feed_id` = :id',
+				{ isValid: 0, id: feed.feed_id }, 
+				function (err, rows) {
+		if (err) {
+			callback(err)
+			return
+		}
+		
+		if (!rows.info.numRows) {
+			log.error('Infos for "' + feed.database_name + '" with id "' + feed.feed_id + '" was not be updated!')
+		}
+		
+		callback()
+		
+	})
 }

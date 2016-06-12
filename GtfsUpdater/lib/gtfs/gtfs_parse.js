@@ -5,6 +5,8 @@ var fs = require('fs')
 var path = require('path')
 var log = require('../log/log.js')
 
+var supportedFiles = "agency|calendar|calendar_dates|fare_attributes|fare_rules|feed_info|frequencies|routes|shapes|stop_times|stops|transfers|trips"
+
 exports.parseFiles = function (database, directory, callback) {
 	gtfs_sql.resetTransportDatabase(database, function (err) {
 		if (err) {
@@ -43,8 +45,16 @@ exports.parseFileRecursive = function (database, directory, fileArray, index, ca
 	}
 	
 	var currentFile = fileArray[index]
-
 	var tableName = currentFile.substr(0, currentFile.lastIndexOf('.'))
+	
+	if (supportedFiles.indexOf(tableName) < 0) {
+		log.warn('Found invalid file "' + currentFile + '" in directory "' + directory + '" for database "' + database + '"."')
+
+		exports.parseFileRecursive(database, directory, fileArray, index + 1, function (err) {
+			callback(err)
+			return
+		})
+	}
 	
 	//MySQL doesn't like double backslash and relative paths
 	var csvPath = path.dirname(require.main.filename) + '/' + directory + '/' + currentFile
