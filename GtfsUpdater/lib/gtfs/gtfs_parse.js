@@ -54,6 +54,7 @@ exports.parseFileRecursive = function (database, directory, fileArray, index, ca
 			callback(err)
 			return
 		})
+		return
 	}
 	
 	//MySQL doesn't like double backslash and relative paths

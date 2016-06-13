@@ -93,7 +93,9 @@ exports.sanitizeColumnList = function (dirtyColumns, table, callback) {
 	log.verbose('Sanitizing columns for "' + table + '"...')
 	var sqlCon = sqlHelper.getConnection()
 	
-	sqlCon.query("SELECT GROUP_CONCAT(DISTINCT `COLUMN_NAME` SEPARATOR '|') AS Columns FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N?", [table], { useArray: true }, function (err, rows) {
+	sqlCon.query("SELECT GROUP_CONCAT(DISTINCT `COLUMN_NAME` SEPARATOR '|') AS Columns FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N?", 
+	[table], { useArray: true }, 
+	function (err, rows) {
 		if (err) {
 			callback(err)
 			return
