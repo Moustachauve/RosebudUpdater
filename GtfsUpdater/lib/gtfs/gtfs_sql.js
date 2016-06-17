@@ -6,37 +6,25 @@ var readline = require('readline')
 var path = require('path')
 var log = require('../log/log.js')
 
-exports.resetTransportDatabase = function (database, callback) {
+exports.resetTransportDatabase = function (feedInfo, callback) {
 	
-	log.verbose('Reseting database "' + database + '"...')
+	log.verbose('Creating temporary database for "' + feedInfo.database_name + '"...')
 	var sqlCon = sqlHelper.getConnection()
 	
-	sqlCon.query('DROP DATABASE IF EXISTS `' + database + '`;CREATE DATABASE `' + database + '`; USE `' + database + '`;', function (err, rows) {
+	sqlCon.query('CALL `my_bus`.`CreateGTFSTables`(?)', [feedInfo.feed_id], function (err, rows) {
 		if (err) {
 			callback(err)
 			return
 		}
 		
-		log.verbose('Creating tables for database "' + database + '"...')
-		
-		sqlHelper.executeSqlFromFile(path.resolve('./lib/gtfs/sql/gtfs_schema.sql'), sqlCon, function (err) {
-			if (err) {
-				callback(err)
-				return
-			}
-			
-			log.verbose('Tables successfuly created for "' + database + '".')
-			
-			callback()
-		})
+		callback(null, rows[0][0].schemaNameTemp)
 	})
+
 }
 
-exports.injectCsvFile = function (database, table, csvPath, callback) {
+exports.injectCsvFile = function (feedInfo, tempDatabase, table, csvPath, callback) {
 	
-	log.verbose('Injecting file "' + csvPath + '" in "' + database + '.' + table + '"...')
-	
-	log.verbose('Reading csv header...')
+	log.verbose('Reading csv header of file "' + table + '"...')
 	
 	var columns = ''
 	var firstTime = true
@@ -55,22 +43,22 @@ exports.injectCsvFile = function (database, table, csvPath, callback) {
 	
 	lineReader.on('close', function () {
 		
-		exports.sanitizeColumnList(columns, table, function (err, cleanColumns) {
+		exports.sanitizeColumnList(columns, table, tempDatabase, function (err, cleanColumns) {
 			if (err) {
 				callback(err)
 				return
 			}
 			
-			log.verbose('Inserting csv info into database...')
+			log.verbose('Injecting file "' + csvPath + '" in "' + tempDatabase + '.' + table + '"...')
 			
-			var sqlQuery = "LOAD DATA LOCAL INFILE '" + csvPath + "'\n"
-			sqlQuery += "INTO TABLE `" + table + "`\n"
+			var sqlQuery = "START TRANSACTION; LOAD DATA LOCAL INFILE '" + csvPath + "'\n"
+			sqlQuery += "INTO TABLE `" + tempDatabase + "`.`" + table + "`\n"
 			sqlQuery += "FIELDS TERMINATED BY ','\n"
 			sqlQuery += "OPTIONALLY ENCLOSED BY '\"'\n"
 			sqlQuery += "ESCAPED BY '\"'\n"
 			sqlQuery += "LINES TERMINATED BY '\n'\n"
 			sqlQuery += "IGNORE 1 LINES\n"
-			sqlQuery += "(" + cleanColumns + ")\n;"
+			sqlQuery += "(" + cleanColumns + ")\n;COMMIT;"
 			
 			var sqlCon = sqlHelper.getConnection()
 			
@@ -79,22 +67,20 @@ exports.injectCsvFile = function (database, table, csvPath, callback) {
 					callback(err)
 					return
 				}
-				
 				log.verbose('Data insertion done.')
-				
 				callback()
 			})
 		})
 	})
 }
 
-exports.sanitizeColumnList = function (dirtyColumns, table, callback) {
+exports.sanitizeColumnList = function (dirtyColumns, table, tempDatabase, callback) {
 	
 	log.verbose('Sanitizing columns for "' + table + '"...')
 	var sqlCon = sqlHelper.getConnection()
 	
-	sqlCon.query("SELECT GROUP_CONCAT(DISTINCT `COLUMN_NAME` SEPARATOR '|') AS Columns FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N?", 
-	[table], { useArray: true }, 
+	sqlCon.query("SELECT GROUP_CONCAT(DISTINCT `COLUMN_NAME` SEPARATOR '|') AS Columns FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N? AND TABLE_SCHEMA = N?", 
+	[table, tempDatabase], { useArray: true }, 
 	function (err, rows) {
 		if (err) {
 			callback(err)
@@ -144,9 +130,9 @@ exports.getFeeds = function (callback) {
 exports.updateFeedInfoAfter = function (feed, isValid, duration, callback) {
 	log.verbose('Updating feed information...')
 	
-	if(!isValid)
+	if (!isValid)
 		log.error('Data for "' + feed.database_name + '" (' + feed.feed_id + ') was not valid, so it will not be visible to users.')
-
+	
 	var sqlCon = sqlHelper.getConnection()
 	
 	sqlCon.query('UPDATE `my_bus`.`feed` SET `data_valid` = :isValid, `last_edit` = `last_edit`, `last_update` = current_timestamp, `last_update_duration` = :duration WHERE `feed_id` = :id',
@@ -167,7 +153,7 @@ exports.updateFeedInfoAfter = function (feed, isValid, duration, callback) {
 }
 
 exports.updateFeedInfoBefore = function (feed, callback) {
-
+	
 	log.info('Updating "' + feed.database_name + '" (' + feed.feed_id + ')... It will not be visible to user while it is updating.')
 	
 	var sqlCon = sqlHelper.getConnection()
@@ -187,4 +173,20 @@ exports.updateFeedInfoBefore = function (feed, callback) {
 		callback()
 		
 	})
+}
+
+exports.switchTempDatabase = function (feedInfo, tempDatabase, callback) {
+
+	var sqlCon = sqlHelper.getConnection()
+
+	sqlCon.query("CALL `my_bus`.`RenameTempSchema`(?, ?)", [feedInfo.feed_id, tempDatabase], function (err, rows) {
+		
+		if (err) {
+			callback(err)
+			return
+		}
+		
+		log.verbose('Switching database done.')
+		callback()
+	});
 }

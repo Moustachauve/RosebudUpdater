@@ -41,7 +41,7 @@ exports.import = function (feedInfo, callback) {
 					return
 				}
 				
-				gtfs_parse.parseFiles(feedInfo.database_name, destinationUnzipFolder, function (err) {
+				gtfs_parse.parseFiles(feedInfo, destinationUnzipFolder, function (err) {
 					if (err) {
 						var elapsed = (process.hrtime(start)[0] * 1000) + (process.hrtime(start)[1] / 1000000)
 						gtfs_sql.updateFeedInfoAfter(feedInfo, false, elapsed, function () {
