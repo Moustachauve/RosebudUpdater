@@ -19,7 +19,8 @@ exports.init = function () {
 		user: sqlConfig.user,
 		password: sqlConfig.password,
 		multiStatements: true,
-		local_infile: true
+		local_infile: true,
+		charset: 'utf8'
 	})
 }
 
