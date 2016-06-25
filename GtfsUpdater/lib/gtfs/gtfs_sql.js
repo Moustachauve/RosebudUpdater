@@ -53,6 +53,7 @@ exports.injectCsvFile = function (feedInfo, tempDatabase, table, csvPath, callba
 			
 			var sqlQuery = "START TRANSACTION; LOAD DATA LOCAL INFILE '" + csvPath + "'\n"
 			sqlQuery += "INTO TABLE `" + tempDatabase + "`.`" + table + "`\n"
+			sqlQuery += "CHARACTER SET UTF8 ','\n"
 			sqlQuery += "FIELDS TERMINATED BY ','\n"
 			sqlQuery += "OPTIONALLY ENCLOSED BY '\"'\n"
 			sqlQuery += "ESCAPED BY '\"'\n"
