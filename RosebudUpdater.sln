@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "GtfsUpdater", "GtfsUpdater\GtfsUpdater.njsproj", "{1648418F-3F65-4D8C-9334-EE608EED8641}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "RosebudUpdater", "GtfsUpdater\RosebudUpdater.njsproj", "{1648418F-3F65-4D8C-9334-EE608EED8641}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
