@@ -11,7 +11,7 @@ exports.resetTransportDatabase = function (feedInfo, callback) {
 	log.verbose('Creating temporary database for "' + feedInfo.database_name + '"...')
 	var sqlCon = sqlHelper.getConnection()
 	
-	sqlCon.query('CALL `my_bus`.`CreateGTFSTables`(?)', [feedInfo.feed_id], function (err, rows) {
+	sqlCon.query('CALL `rosebud_data`.`CreateGTFSTables`(?)', [feedInfo.feed_id], function (err, rows) {
 		if (err) {
 			callback(err)
 			return
@@ -112,7 +112,7 @@ exports.sanitizeColumnList = function (dirtyColumns, table, tempDatabase, callba
 exports.getFeeds = function (callback) {
 	var sqlCon = sqlHelper.getConnection()
 	
-	sqlCon.query('SELECT `feed_id`, `database_name`, `url_gtfs` FROM `my_bus`.`feed`', function (err, rows) {
+	sqlCon.query('SELECT `feed_id`, `database_name`, `url_gtfs` FROM `rosebud_data`.`feed`', function (err, rows) {
 		if (err) {
 			callback(err)
 			return
@@ -136,7 +136,7 @@ exports.updateFeedInfoAfter = function (feed, isValid, duration, callback) {
 	
 	var sqlCon = sqlHelper.getConnection()
 	
-	sqlCon.query('UPDATE `my_bus`.`feed` SET `data_valid` = :isValid, `last_edit` = `last_edit`, `last_update` = current_timestamp, `last_update_duration` = :duration WHERE `feed_id` = :id',
+	sqlCon.query('UPDATE `rosebud_data`.`feed` SET `data_valid` = :isValid, `last_edit` = `last_edit`, `last_update` = current_timestamp, `last_update_duration` = :duration WHERE `feed_id` = :id',
 				{ isValid: isValid ? 1 : -1, duration: duration, id: feed.feed_id }, 
 				function (err, rows) {
 		if (err) {
@@ -159,7 +159,7 @@ exports.updateFeedInfoBefore = function (feed, callback) {
 	
 	var sqlCon = sqlHelper.getConnection()
 	
-	sqlCon.query('UPDATE `my_bus`.`feed` SET `data_valid` = :isValid, `last_edit` = `last_edit`, `last_update` = current_timestamp WHERE `feed_id` = :id',
+	sqlCon.query('UPDATE `rosebud_data`.`feed` SET `data_valid` = :isValid, `last_edit` = `last_edit`, `last_update` = current_timestamp WHERE `feed_id` = :id',
 				{ isValid: 0, id: feed.feed_id }, 
 				function (err, rows) {
 		if (err) {
@@ -180,7 +180,7 @@ exports.switchTempDatabase = function (feedInfo, tempDatabase, callback) {
 
 	var sqlCon = sqlHelper.getConnection()
 
-	sqlCon.query("CALL `my_bus`.`RenameTempSchema`(?, ?)", [feedInfo.feed_id, tempDatabase], function (err, rows) {
+	sqlCon.query("CALL `rosebud_data`.`RenameTempSchema`(?, ?)", [feedInfo.feed_id, tempDatabase], function (err, rows) {
 		
 		if (err) {
 			callback(err)
@@ -190,4 +190,4 @@ exports.switchTempDatabase = function (feedInfo, tempDatabase, callback) {
 		log.verbose('Switching database done.')
 		callback()
 	});
-}
+} 

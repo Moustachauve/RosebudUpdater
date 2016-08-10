@@ -18,5 +18,7 @@ CREATE TABLE IF NOT EXISTS `feed`
     `last_update_duration`	varchar(15)			DEFAULT NULL,
     
 
-	PRIMARY KEY				(`feed_id`) 
+	PRIMARY KEY				(`feed_id`),
+    UNIQUE 					(`database_name`),
+    UNIQUE 					(`url_gtfs`)
 );
